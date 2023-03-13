@@ -1,0 +1,131 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+img{
+    width: 340px;
+    height: 486px;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.section-main__image{
+    margin-top: 80px;
+}
+.section-main__info{
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.section-main__info span{
+    opacity: 0.4;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 30px;
+}
+.section-main__info ul li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.section-main__info .border{
+    padding: 3px;
+    opacity: 1;
+    border: 1px solid #fff;
+    border-radius: 6px;
+}
+.section-main__info ul li:first-child{
+    margin-top: 40px
+}
+.section-main__info h3{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section-main__title h1{
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+}
+.section-main__info p{
+    width: 530px;
+    height: 38px;
+    color: #fff;
+}
+.section-main__frame{
+    display: flex;
+}
+.section-main__btn{
+    width: 205px;
+    height: 41px;   
+    background: #FF5C00;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 30px;
+    transition: background 0.35s;
+}
+.section-main__btn:hover{
+    background: #FF3D00;
+}
+.section-main__rate{
+    margin-top: 80px;
+}
+.section-main__rate .rating{
+    font-weight: 900;
+    font-size: 36px;
+    height: 42px;
+    color: #44C916; 
+}
+.section-main__rate .amount-rate{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    opacity: 0.4;
+    margin-top: 10px;
+}
+.section-main__rate .review{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 10px;
+    transition: color 0.35s;
+}
+.section-main__rate .review:hover{
+    color: #FF5C00;
+}
+.section-main__info h2{
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 40px;
+}
+.section-main__info .label{
+    width: 140px;
+}
